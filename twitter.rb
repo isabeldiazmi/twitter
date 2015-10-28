@@ -9,6 +9,11 @@ class TwitterScrapper
   end
 
   def interfaz
+    puts "Username: #{extract_username}"
+    puts "---------------------------------------------------"
+    puts "STATS -> Tweets: Siguiendo: Seguidores: Favoritos:"
+    puts "---------------------------------------------------"
+    puts "Tweets:"
   end
 
   def extract_username
